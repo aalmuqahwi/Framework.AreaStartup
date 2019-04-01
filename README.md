@@ -10,8 +10,6 @@ Other reason is that I'm bulding another project which is an in memory event bus
 ## Todo list
 - [ ] Create base interface that each area need to implement.
 - [ ] Create initializer that read all interfaces and run the code inside them.
+
+## I need to learn
 - [ ] Create nuget package.
-
-
-
-
