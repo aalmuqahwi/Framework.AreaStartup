@@ -10,7 +10,7 @@ Other reason is that I'm bulding another project which is an in memory event bus
 
 Lets say that we have one area called `Profile`. Inside it, add new class called `AreaStartup` and make it implement `IAreaStartup` interface like the following:
 
-```<language>
+```csharp
 public class AreaStartup : IAreaStartup
 {   
     public void ConfigureServices(IServiceCollection services)
@@ -27,7 +27,7 @@ public class AreaStartup : IAreaStartup
 
 In `Startup` class add the following:
 
-```<language>
+```csharp
 public void ConfigureServices(IServiceCollection services)
 {
     //other services.
